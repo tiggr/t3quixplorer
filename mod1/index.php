@@ -52,9 +52,7 @@ require_once ('t3quixplorer_div.php');
 require ($BACK_PATH.'init.php');
 unset($MCONF);	
 require ('conf.php');
-require ($BACK_PATH.'template.php');
 $LANG->includeLLFile('EXT:t3quixplorer/mod1/locallang.xml');
-require_once (PATH_t3lib.'class.t3lib_scbase.php');
 
 $BE_USER->modAccess($MCONF,1);	// This checks permissions and exits if the users has no permission for entry.
 	// DEFAULT initialization of a module [END]

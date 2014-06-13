@@ -30,7 +30,6 @@
 /***************************************************************/
 
 require_once ('t3quixplorer_div.php');
-require_once(PATH_t3lib.'class.t3lib_basicfilefunc.php');
 
 class t3quixplorer_copymove{
 

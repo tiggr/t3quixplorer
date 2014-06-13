@@ -315,7 +315,6 @@ class t3quixplorer_div{
 		//setCookie('dir','',0,'/');
 		$content= array();
 		//include backend template if not already included by the mainscript
-		require_once ($BACK_PATH.'template.php');
 		$errordoc = t3lib_div::makeInstance('bigDoc');
 		$errordoc->backPath = $BACK_PATH;
 		$content[]=$errordoc->startPage($LANG->getLL('title')).$errordoc->header($LANG->getLL('title')).$errordoc->spacer(5).$errordoc->section($LANG->getLL('error.header'),$err_str);

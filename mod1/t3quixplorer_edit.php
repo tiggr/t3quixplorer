@@ -407,7 +407,6 @@ class t3quixplorer_edit{
 					
 					break;	
 				case 'ts':
-					require_once(PATH_t3lib.'class.t3lib_tsparser.php');
 					$tsparser = t3lib_div::makeInstance('t3lib_TSparser');
 					$tsparser->lineNumberOffset=1;
 					$formattedContent = $tsparser->doSyntaxHighlight($inputCode, array($tsparser->lineNumberOffset), 0);
